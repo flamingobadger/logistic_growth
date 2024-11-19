@@ -15,12 +15,20 @@
 
 * From the intercept of my first linear model I could estimate N0 to be 985 (e6.8941709)
 * From the slope of my first linear model I could estimate r to be 0.0100086
-* The slope of my second linear model meant I could estimate K to be 6.000e+10
+* The slope of my second linear model meant I could estimate K to be 60000000000 (6.000e+10)
    
-* This gives the estimates of N0 = 985, r = 0.010086, and K = 6.000e+10 
+* This gives the estimates of N0 = 985, r = 0.010086, and K = 6.000e+10
 
 
 ## Question 2
+
+* Assuming the population grows exponentially, at t = 4980 min, N = N0*exp(r*t) = 985*exp(0.010086*4980) = **6e+10**
+* Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N0+NO*exp(r*t)) = (985*6.000e+10(0.010086*4980))/ (6.000e+10-985*exp(0.010086*4980)) = **6.42e+24**
+
+* The estimate under under exponential growth is less than under logistic growth because population growth under logistic growth is limited by the population's carrying capacity. The exponential model assumes population growth is not limited by density dependent factors so is unbounded.
+
+## Question 3
+
 
 
 
