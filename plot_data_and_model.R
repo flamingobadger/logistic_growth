@@ -10,11 +10,11 @@ logistic_fun <- function(t) {
   
 }
 
-N0 <- 879
+N0 <- 985
   
 r <- 0.010086
   
-K <- 9.979e+10
+K <- 6.000e+10
 
 ggplot(aes(x=t,y=N), data = growth_data) +
   
