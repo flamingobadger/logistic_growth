@@ -29,4 +29,4 @@
 
 ## Question 3
 
-
+![My Plot](exp_log_plot.png)
