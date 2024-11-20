@@ -29,4 +29,7 @@
 
 ## Question 3
 
+* Code for plot below is in the "exp_log_plot.png"
+* Graph shows how when logistic growth occurs (blue line), the population is limited by its carrying capacity. Whereas for exponential growth (purple line), the population grows without bounds
+
 ![My Plot](exp_log_plot.png)
