@@ -38,13 +38,12 @@ comparison_fig <- ggplot(growth_df, aes(x = time)) +
   geom_line(aes(y = exponential, colour = "Exponential")) +
   geom_line(aes(y = logistic, colour = "Logistic")) +
   scale_colour_manual(values = c("Exponential" = "pink", "Logistic" = "blue")) +
-  scale_y_log10() +  #setting y-axis to logarithmic scale
+  scale_y_log10() + 
   labs(
     x = "Time (minutes)",
     y = "Population size of of E. coli (log scale)",
     colour = "Growth Model",
-    title = "Comparison of Exponential and Logistic Growth Curves"
-  ) +
+    title = "Comparison of Exponential and Logistic Growth Curves") +
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5))
 
