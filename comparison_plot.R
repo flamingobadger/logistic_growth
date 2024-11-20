@@ -37,7 +37,7 @@ growth_df <- data.frame(
 comparison_fig <- ggplot(growth_df, aes(x = time)) +
   geom_line(aes(y = exponential, colour = "Exponential")) +
   geom_line(aes(y = logistic, colour = "Logistic")) +
-  scale_colour_manual(values = c("Exponential" = "pink", "Logistic" = "blue")) +
+  scale_colour_manual(values = c("Exponential" = "purple", "Logistic" = "blue")) +
   scale_y_log10() + 
   labs(
     x = "Time (minutes)",
@@ -49,4 +49,5 @@ comparison_fig <- ggplot(growth_df, aes(x = time)) +
 
 #displaying the plot
 print(comparison_fig)
+
 
