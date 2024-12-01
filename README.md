@@ -4,7 +4,7 @@
 
 * I used data from the experiment.csv file which I saved into a dataframe called growth_data. This file includes data showing the change to an E.coli population isolate over time when suspended in growth media.
 
-### Plotting
+### Plotting raw data
 * In  "plot_data.R" script I used the "ggplot2" package to firstly plot population (N) over time (t) in order to see how the population changes over time. This gave an S shaped graph because ...*
 * Subsequently, as the growth curve appeared logistic, I produced a second plot that was semilog, transforming the y variable by log 10
 
