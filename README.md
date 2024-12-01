@@ -1,6 +1,6 @@
 ## Question 1
 
-### Analysis
+## Analysis
 
 * I used data from the experiment.csv file which I saved into a dataframe called growth_data. This file includes data showing the change to an E.coli population isolate over time when suspended in growth media.
 
