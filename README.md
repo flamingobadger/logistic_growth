@@ -32,7 +32,7 @@
 * Assuming the population grows exponentially, at t = 4980 min, N = N0*exp(r*t) = 985*exp(0.010086*4980) = **6e+10**
 * Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N0+NO*exp(r*t)) = (985*6.000e+10(0.010086*4980))/ (6.000e+10-985*exp(0.010086*4980)) = **6.42e+24**
 
-* The estimate under under exponential growth is less than under logistic growth because population growth under logistic growth is limited by the population's carrying capacity. The exponential model assumes population growth is not limited by density dependent factors so is unbounded.
+* The estimate under under exponential growth is less than under logistic growth because growth under logistic growth is limited by the population's carrying capacity. The exponential model assumes population growth is not limited by density dependent factors so is unbounded. This is unrealistic ?
 
 ## Question 3
 
