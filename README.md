@@ -11,12 +11,8 @@
 * In  "plot_data.R" script I used the "ggplot2" package to firstly plot population ($N$) over time ($t$) in order to see how the population changes over time. This gives a graph with an S-shaped curve is characteristic of logistic growth.
   
 * The population initially is in a lag phase as the population is adjusting to the environment of the growth medium and N is small so there are fewer individuals reproducing. After N increases, the population then experiences exponential growth as the concentration of resources in the environment are abundant. The depletion of resources and increase in competition then results in a deceleration phase, and the population then stabilises around the carrying capacity ($K$).
-
-
   
 * As the growth curve appeared logistic, I produced a second plot that was semilog, transforming the y variable by log 10. This results in the exponential phase of logistic growth into a straight line meaning it is easier to analyse and estimate the intrinsic growth rate ($r$)
-
-* add graph
 
 ### Fitting linear models
 
