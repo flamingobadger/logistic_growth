@@ -2,8 +2,8 @@
 
 ### Analysis
 
-* I used data from the experiment.csv file which I saved into a dataframe called growth_data. This file includes data showing the change to an * Escherichia coli* population isolate over time when suspended in growth media.
-* 100μl of *E.coli* bacteria were suspended in 900μl of growth media, and population size (*N*) was recorded at time intervals (t)
+* I used data from the experiment.csv file which I saved into a dataframe called growth_data. This file includes data showing the change to an *  Escherichia coli * population isolate over time when suspended in growth media.
+* 100μl of * E. coli * bacteria were suspended in 900μl of growth media, and population size (*N*) was recorded at time intervals (t)
 * These observations can be used to estimate the values of $N_0$, $r$ and K using a linear approximation. 
 
 ### Plotting raw data
