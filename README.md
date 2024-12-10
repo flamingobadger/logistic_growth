@@ -1,4 +1,4 @@
-## Question 1: Logistic Growth Analysis & Estimates for N_0, r and K
+## Question 1: Logistic Growth Analysis & Estimates for $N$_0, r and K
 
 ### Analysis
 
