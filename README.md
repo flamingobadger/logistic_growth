@@ -1,4 +1,4 @@
-## Question 1: Logistic Growth Analysis & Estimates for N0, r and K
+## Question 1: Logistic Growth Analysis & Estimates for N_0, r and K
 
 ### Analysis
 
@@ -17,7 +17,7 @@
 
 * In the "fit_linear_model_R" script, I then used the "dyplr" package to filter the dataset.
 * In case 1, I created a data subset where N was below the carrying capacity (K) which occurs when t is low (t>1500), using the "mutate" function to make a new column where values of N are logarithmic.
-* I then used the "lm" function to fit a linear model of N(log) against t, which we can use to estimate initial population size (N0) and intrinsic population growth rate (r)
+* I then used the "lm" function to fit a linear model of N(log) against t, which we can use to estimate initial population size (N_0) and intrinsic population growth rate (r)
 * Also in the "fit_linear_model_R) script I created a second subset where the population has reached carrying capacity so N(t) = K and so made t>3000 as this is where the population had reached equilibrium. Again I fit a linear model which can be used to estimate K.
 
 * Add linear approximation & assumptions
@@ -28,7 +28,7 @@
 
 ### Results:
 
-* From the intercept of my first linear model I could estimate N0 to be 985 (e6.8941709)
+* From the intercept of my first linear model I could estimate N_0 to be 985 (e6.8941709)
 * From the slope of my first linear model I could estimate r to be 0.0100086
 * The slope of my second linear model meant I could estimate K to be 60000000000 (6.000e+10)
    
@@ -36,9 +36,9 @@
 
 ## Question 2: Calculating population size at t = 4980 minutes
 
-* Assuming the population grows exponentially, at: t = 4980 min, N = N0*exp(r*t) = 985*exp(0.010086*4980) = **6e+10**
+* Assuming the population grows exponentially, at: t = 4980 min, N = N_0*exp(r*t) = 985*exp(0.010086*4980) = **6e+10**
   
-* Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N0+NO*exp(r*t)) = (985*6.000e+10(0.010086*4980))/ (6.000e+10-985*exp(0.010086*4980)) = **6.42e+24**
+* Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp(r*t)) = (985*6.000e+10(0.010086*4980))/ (6.000e+10-985*exp(0.010086*4980)) = **6.42e+24**
 
 * The estimate under under exponential growth is less than under logistic growth because growth under logistic growth is limited by the population's carrying capacity. The exponential model assumes population growth is not limited by density dependent factors so is unbounded.
 
