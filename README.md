@@ -25,9 +25,9 @@
 **Case 1: $K$ >> $N_0$**
 * In case 1, I created a data subset where N was below the carrying capacity ($K$) which occurs when $t$ is low ($t$>1500) and therefore growth is exponential. 
 * I used the "mutate" function to make a new column where values of N are logarithmic. By transforming $N$ to ln($N$), the relationship becomes linear and it is possible to fit a simple linear regression model
-* I then used the "lm" function to fit a linear model of ln($N$) against $t$. The intercept of the linear model can be used to estimate initial population size ($N_0%) and the gradient can be used to estimate intrinsic population growth rate ($r$)
+* I then used the "lm" function to fit a linear model of ln($N$) against $t$. The intercept of the linear model can be used to estimate initial population size ($N_0$) and the gradient can be used to estimate intrinsic population growth rate ($r$)
 
-**Case 2: $N(t)$ = K**
+**Case 2: $N(t)$ = $K$**
 
 * Also in the "fit_linear_model_R" script I created a second subset where the population has reached carrying capacity so $N$($t$) = $K$. I made $t$>3000 as this is where the population had reached equilibrium.
 * Again, I fit a linear model which can be used to estimate $K$ from the intercept
@@ -53,11 +53,13 @@
   
 * Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp($r$*$t$)) = (985*6.000$e$+10(0.010086*4980))/ (6.000$e$+10-985*exp(0.010086*4980)) = **6.42$e$+24**
 
-* The estimate under under exponential growth is less than under logistic growth because growth under logistic growth is limited by the population's carrying capacity. The exponential model assumes population growth is not limited by density dependent factors so is unbounded.
+* The estimate under under exponential growth is less than under logistic growth because growth under logistic growth is limited by the population's carrying capacity.
+* The exponential model assumes population growth is not limited by density dependent factors so is unbounded, with no effects of resource depletion, competition or build up of toxic waste. The introduction of a carrying capacity for logistic growth is more realistic, and models the effects of limiting factors
 
 ## Question 3: Comparing exponential and logistic growth curves
 
-* Code for plot below is in the "exp_log_plot.png"
-* Graph shows how when logistic growth occurs (blue line), the population is limited by its carrying capacity. Whereas for exponential growth (purple line), the population grows without bounds
+* My code for the plot below is in the "exp_log_plot.png"
+  
+* The graph shows how when logistic growth occurs (blue line), the population is limited by its carrying capacity. Whereas for exponential growth (purple line), the population grows without bounds
 
 ![My Plot](exp_log_plot.png)
