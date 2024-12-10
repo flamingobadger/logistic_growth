@@ -35,6 +35,9 @@
 ### Logistic Model
 
 * In the "plot_data_and_model.R" script I created a function which defines a logistic growth model, and plotted N against t to see how well the data fit a logistic model
+* The plot below visualises the observed data (black dots) against the logistic growth model (red). The observed data closely follows a the logistic model prediction and is a typical logistic growth pattern 
+
+![image](https://github.com/user-attachments/assets/86b37b39-99ba-4f7a-839b-bd10a9250241)
 
 ### Results:
 
