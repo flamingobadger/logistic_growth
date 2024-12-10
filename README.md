@@ -27,7 +27,7 @@
 * I used the "mutate" function to make a new column where values of N are logarithmic. By transforming $N$ to ln($N$), the relationship becomes linear and it is possible to fit a simple linear regression model
 * I then used the "lm" function to fit a linear model of ln($N$) against $t$. The intercept of the linear model can be used to estimate initial population size ($N_0%) and the gradient can be used to estimate intrinsic population growth rate ($r$)
 
-**Case 2: N(t) = K**
+**Case 2: $N(t)$ = K**
 
 * Also in the "fit_linear_model_R" script I created a second subset where the population has reached carrying capacity so $N$($t$) = $K$. I made $t$>3000 as this is where the population had reached equilibrium.
 * Again, I fit a linear model which can be used to estimate $K$ from the intercept
