@@ -16,7 +16,7 @@
 
 **Logistic growth plot after logarithmic transformation**
   
-* As the growth curve appeared logistic, I produced a second plot that was semilog, transforming the y variable by log 10. This results in the exponential phase of logistic growth into a straight line meaning it is easier to analyse and estimate the intrinsic growth rate ($r$)
+* As the growth curve appeared logistic, I produced a second plot that was semilog, transforming the y variable by log 10. In this plot, the exponential phase of logistic growth was visualised as a straight line meaning it is easier to analyse and estimate the intrinsic growth rate ($r$)
 
 ### Fitting linear models
 
