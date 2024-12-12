@@ -47,7 +47,7 @@
 
 ## Question 2: Calculating population size at $t$ = 4980 minutes
 
-* Assuming the population grows exponentially, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6$e$+10**
+* Assuming the population grows exponentially, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6$e$ +10**
   
 * Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp($r$*$t$)) = (985*6.000$e$+10(0.010086*4980))/ (6.000$e$+10-985*exp(0.010086*4980)) = **6.42$e$+24**
 
