@@ -47,9 +47,9 @@
 
 ## Question 2: Calculating population size at $t$ = 4980 minutes
 
-* Assuming the population grows exponentially, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6.24 x 10<sup>24</sup>**
+* Assuming the population grows **exponentially**, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6.24 x 10<sup>24</sup>**
   
-* Whereas under logistic growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp($r$*$t$)) = (985*6 x 10<sup>10</sup>(0.010086*4980))/ (((6 x 10<sup>10</sup>) - 985) + (985 * exp(0.010086*4980)), so N = **6 x 10<sup>10</sup>**
+* Whereas under **logistic** growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp($r$*$t$)) = (985*6 x 10<sup>10</sup>(0.010086*4980))/ (((6 x 10<sup>10</sup>) - 985) + (985 * exp(0.010086*4980)), so N = **6 x 10<sup>10</sup>**
 
 * The estimate under under exponential growth is less than under logistic growth because growth under logistic growth is limited by the population's carrying capacity.
 * The exponential model assumes population growth is not limited by density dependent factors so is unbounded, with no effects of resource depletion, competition or build up of toxic waste. The introduction of a carrying capacity for logistic growth is more realistic, and models the effects of limiting factors
