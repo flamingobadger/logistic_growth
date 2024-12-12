@@ -43,11 +43,11 @@
 
 * From the intercept of my first linear model I could estimate $N_0$ to be **985** ($e$ <sup>6.8941709</sup>)
 * From the slope of my first linear model I could estimate $r$ to be **0.0100086**
-* The slope of my second linear model meant I could estimate $K$ to be **60000000000** (6.000$e$+10)
+* The slope of my second linear model meant I could estimate $K$ to be **60000000000** (6.000e+10)
 
 ## Question 2: Calculating population size at $t$ = 4980 minutes
 
-* Assuming the population grows exponentially, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6 $e$ +10**
+* Assuming the population grows exponentially, at: $t$ = 4980 min, $N$ = $N_0$*exp(r*t) = 985*exp(0.010086*4980) = **6e+10**
   
 * Whereas under exponential growth, at t = 4980 min, N = (N0*K*exp(r*t))/(K-N_0+N_0*exp($r$*$t$)) = (985*6.000$e$+10(0.010086*4980))/ (6.000$e$+10-985*exp(0.010086*4980)) = **6.42$e$+24**
 
