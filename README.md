@@ -41,7 +41,7 @@
 
 ### Results:
 
-* From the intercept of my first linear model I could estimate $N_0$ to be 985 ($e$6.8941709)
+* From the intercept of my first linear model I could estimate $N_0$ to be 985 ($e$ <sup>6.8941709</sup>)
 * From the slope of my first linear model I could estimate $r$ to be 0.0100086
 * The slope of my second linear model meant I could estimate $K$ to be 60000000000 (6.000$e$+10)
    
