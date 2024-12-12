@@ -10,7 +10,7 @@
 
 **Logistic growth plot**
 
-* In  "plot_data.R" script I used the "ggplot2" package to firstly plot population ($N$) over time ($t$) in order to visualise how the population size changes over time. This gives a graph with an S-shaped curve which is characteristic of logistic growth.
+* In  "plot_data.R" script I used the "ggplot2" package to plot population ($N$) over time ($t$) in order to visualise how the population size changes over time. This gives a graph with an S-shaped curve which is characteristic of logistic growth.
   
 * The population initially is in a lag phase as the population is adjusting to the environment of the growth medium and N is small so there are fewer individuals reproducing. After N increases, the population then experiences exponential growth as the concentration of resources in the environment are abundant. The depletion of resources and increase in competition then results in a deceleration phase, and the population then stabilises around the carrying capacity ($K$).
 
