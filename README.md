@@ -3,7 +3,7 @@
 ### Introduction
 
 * This analysis was conducted to estimate key parameters of a population of *Escherichia coli* bacteria under logistic growth 
-* 100μl of *E.coli* bacteria were suspended in 900μl of growth media, totalling 1ml. Population size (*N*) was recorded at 60 minute time intervals (t), and this data showing change to the population isolate over time is in the experiment.csv file.
+* 100μl of *E.coli* bacteria were suspended in 900μl of growth media, totalling 1ml. Population size (*N*) was recorded at 60 minute time intervals (t), and recorded in the experiment.csv file which I use in this analysis.
 * These observations can be used to to estimate the values of initial population size ($N_0$), growth rate ($r$) and carrying capacity (K)
 
 ### Plotting raw data
