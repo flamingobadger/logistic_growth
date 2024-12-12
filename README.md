@@ -29,7 +29,7 @@
 
 **Case 2: $N(t)$ = $K$**
 
-* Also in the "fit_linear_model_R" script I created a second subset where the population has reached carrying capacity so $N$($t$) = $K$. I made $t$>3000 as this is where the population had reached equilibrium.
+* Also in the "fit_linear_model_R" script I created a second subset where the population has reached carrying capacity so $N$($t$) = $K$. I made $t$ >3000 as this is where the population had reached equilibrium.
 * Again, I fit a linear model which can be used to estimate $K$ from the intercept
 
 ### Logistic Model
