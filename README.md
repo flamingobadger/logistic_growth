@@ -23,7 +23,7 @@
 * In the "fit_linear_model_R" script, I then used the "dyplr" package to filter the dataset.
 
 **Case 1: $K$ >> $N_0$**
-* In case 1, I created a data subset where N was below the carrying capacity ($K$) which occurs when $t$ is low ($t$>1500) and therefore growth is exponential. 
+* In case 1, I created a data subset where N was below the carrying capacity ($K$) which occurs when $t$ is low ($t$ >1500) and therefore growth is exponential. 
 * I used the "mutate" function to make a new column where values of N are logarithmic. By transforming $N$ to ln($N$), the relationship becomes linear and it is possible to fit a simple linear regression model
 * I then used the "lm" function to fit a linear model of ln($N$) against $t$. The intercept of the linear model can be used to estimate initial population size ($N_0$) and the gradient can be used to estimate intrinsic population growth rate ($r$)
 
